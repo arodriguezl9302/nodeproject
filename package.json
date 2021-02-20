@@ -2,9 +2,9 @@
   "name": "nodeproject",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon serve.js"
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,12 +15,6 @@
     "express-ejs-layouts": "^2.5.0"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3",
-    "laravel-mix": "^6.0.11",
-    "nodemon": "^2.0.7",
-    "postcss": "^8.1.14",
-    "resolve-url-loader": "^3.1.2",
-    "sass": "^1.32.8",
-    "sass-loader": "^8.0.2"
+    "nodemon": "^2.0.7"
   }
 }
