@@ -7,6 +7,7 @@ const path = require('path')
 const PORT = process.env.PORT || 3000
 
 app.use(express.static('public'));
+
 app.get('/', (req, res)=>{
     res.render('home')
 })
@@ -18,5 +19,5 @@ app.set('view engine', 'ejs')
 
 
 app.listen(PORT, () => {
-    console.log(`Server started on port r ${PORT}`);
+    console.log(`Server started on port ${PORT}`);
 });

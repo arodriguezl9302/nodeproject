@@ -1,3 +1,16 @@
 body {
-  background-color: red;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #232323;
+}
+
+nav li a {
+  transition: all 0.3s ease-in-out;
+}
+nav li a:hover {
+  color: #FE5F1E;
+}
+
+section.hero {
+  background-color: #F8F8F8;
 }
