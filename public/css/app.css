@@ -8,7 +8,7 @@ nav li a {
   transition: all 0.3s ease-in-out;
 }
 nav li a:hover {
-  color: #FE5F1E;
+  color: #F50057;
 }
 
 section.hero {
