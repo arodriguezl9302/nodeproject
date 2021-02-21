@@ -16,3 +16,23 @@ nav li a{
 section.hero{
     background-color: $secondary;
 }
+
+.btn-primary{
+    background: $primary;
+    transition:all .3s ease-in-out;
+    &:hover{
+        background: $primary-hover;
+    }
+}
+
+section.login{
+    background: $secondary;
+    min-height: calc(100vh - 86px);
+
+    a{
+        color: $primary;
+        &:hover{
+            color: $primary-hover;
+        }
+    }
+}
